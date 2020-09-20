@@ -30,7 +30,6 @@ sorted_matrix
 def matrix_lookup(matrix, row, column)
   matrix[row][column]
 end
-
 matrix_lookup(assembled_matrix,1, 0)
 binding.pry
 
