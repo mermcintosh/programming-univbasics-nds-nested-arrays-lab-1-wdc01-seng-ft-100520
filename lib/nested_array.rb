@@ -35,5 +35,5 @@ matrix_lookup(assembled_matrix,1, 0)
 def matrix_update(matrix, row, column, new_value)
 matrix[row][column]= new_value
 end
-matrix_update(assembled_matrix,0,2,"Lemons")
+matrix_update(assembled_matrix,0,2,"Cats")
 binding.pry
