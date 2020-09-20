@@ -37,4 +37,5 @@ matrix[row][column]= new_value
 puts assembled_matrix
 end
 matrix_update(assembled_matrix,0,2,"Lemons")
-binding.pry
+
+
