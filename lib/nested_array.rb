@@ -27,7 +27,7 @@ end
 sorted_matrix
 
 def matrix_lookup(matrix, row, column)
-[CONVENTIONAL_PRODUCE.sort,ORGANIC_PRODUCE.sort]
+sorted_matrix=[CONVENTIONAL_PRODUCE.sort,ORGANIC_PRODUCE.sort]
 end
 matrix_lookup(sorted_matrix,0,1)
 
