@@ -31,7 +31,6 @@ def matrix_lookup(matrix, row, column)
   matrix[row][column]
 end
 matrix_lookup(assembled_matrix,1, 0)
-binding.pry
 
 # def matrix_update(matrix, row, column, new_value)
 #   # Given any matrix (array of arrays), a row index and a column index, 
