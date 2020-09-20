@@ -33,6 +33,6 @@ end
 matrix_lookup(assembled_matrix,1, 0)
 
 def matrix_update(matrix, row, column, new_value)
-p array.map { |matrix| matrix == (row,column) ? new_value : matrix }
+matrix[row][column]=new_value
 end
 matrix_update(assembled_matrix,1,0,"pickles")
