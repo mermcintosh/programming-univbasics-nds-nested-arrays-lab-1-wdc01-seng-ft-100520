@@ -32,7 +32,7 @@ def matrix_lookup(matrix, row, column)
   thing = matrix[1][1]
   binding.pry
 end
-matrix_lookup(sorted_matrix,1, 0)
+matrix_lookup(assembled_matrix,1, 0)
 
 # def matrix_update(matrix, row, column, new_value)
 #   # Given any matrix (array of arrays), a row index and a column index, 
