@@ -27,10 +27,11 @@ def sorted_matrix
 end
 sorted_matrix
 
-def matrix_lookup(matrix, row, column)
-  thing = matrix[1][1]
-  binding.pry
+def matrix_lookup(crazywildstupidthing, row, column)
+  thing = crazywildstupidthing[1][1]
 end
+
+binding.pry
 matrix_lookup(assembled_matrix,1, 0)
 
 # def matrix_update(matrix, row, column, new_value)
