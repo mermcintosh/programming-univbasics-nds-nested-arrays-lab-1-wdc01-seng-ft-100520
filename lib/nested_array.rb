@@ -1,3 +1,4 @@
+require "pry"
 # Examples inspired by U. S. National Organic Standards
 
 ORGANIC_PRODUCE = [
@@ -27,6 +28,7 @@ end
 sorted_matrix
 
 def matrix_lookup(matrix, row, column)
+  binding.pry
   [CONVENTIONAL_PRODUCE.sort,ORGANIC_PRODUCE.sort]
 end
 matrix_lookup(sorted_matrix,1, 0)
