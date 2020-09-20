@@ -28,7 +28,6 @@ end
 sorted_matrix
 
 def matrix_lookup(matrix, row, column)
-  # [CONVENTIONAL_PRODUCE.sort,ORGANIC_PRODUCE.sort]
   thing = matrix[1][1]
   binding.pry
 end
